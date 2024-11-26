@@ -1,0 +1,44 @@
+.box-1 {
+    width: 98%;
+    /*margin: 1%;*/
+    background-color: #f00;
+    height: 300px;
+    float: left;
+}
+ .navbar{
+    background-color: #333;
+    color: #fff;
+    
+}
+.navbar li{
+    list-style: none !important;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+@media screen and (min-width: 720px) {
+    .box-1 {
+        width: 48%;
+        height: 150px;
+    }}
+@media screen and (min-width: 1024px) {
+    .box-1 {
+        width: 31%;
+        height: 300px;
+    }}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
